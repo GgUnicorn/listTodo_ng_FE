@@ -1,0 +1,72 @@
+element.style {
+  margin: 0;
+  /* height: 100%; */
+  background: linear-gradient(
+    45deg,
+    blueviolet 30%,
+    yellow,
+    red,
+    pink,
+    transparent
+  );
+  height: 100vh;
+  border-radius: 4px;
+}
+
+table {
+  padding: 15px;
+  gap: 20px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 60px;
+  gap: 15px;
+}
+input {
+  width: 250px;
+  height: 30px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  box-sizing: border-box;
+  box-shadow: 5px solid black;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(300deg, skyblue, rgb(255, 91, 119));
+}
+button:hover {
+  transform: scale(1.15);
+  background: linear-gradient(45deg, yellow, blueviolet);
+  /* background: red; */
+  transition: background 0.3s ease;
+}
+td,
+th {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 5px 3px;
+}
+label {
+  display: inline;
+  font-size: 20px;
+  font-weight: bolder;
+  box-shadow: #000000;
+  box-sizing: border-box;
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
